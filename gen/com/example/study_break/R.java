@@ -1078,8 +1078,9 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int blackgold=0x7f020057;
-        public static final int ic_launcher=0x7f020058;
-        public static final int redgreen=0x7f020059;
+        public static final int graphic_ring=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
+        public static final int redgreen=0x7f02005a;
     }
     public static final class id {
         public static final int About_Title=0x7f05003d;
@@ -1101,13 +1102,13 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
-        public static final int buttonGO=0x7f050043;
+        public static final int buttonGO=0x7f050044;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
-        public static final int display_time=0x7f050041;
+        public static final int display_time=0x7f050042;
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050030;
         public static final int end=0x7f050013;
@@ -1121,10 +1122,11 @@ containing a value of this type.
         public static final int image=0x7f050027;
         public static final int imageButton1=0x7f050047;
         public static final int imageButton2=0x7f050048;
+        public static final int imageView_ring=0x7f050041;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;
-        public static final int minute_label=0x7f050042;
+        public static final int minute_label=0x7f050043;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
@@ -1142,7 +1144,6 @@ containing a value of this type.
         public static final int search_plate=0x7f050036;
         public static final int search_src_text=0x7f050037;
         public static final int search_voice_btn=0x7f05003b;
-        public static final int seekBar=0x7f050044;
         public static final int settings_title=0x7f050045;
         public static final int shortcut=0x7f05002e;
         public static final int showCustom=0x7f050007;
@@ -1223,10 +1224,10 @@ containing a value of this type.
         public static final int theme_green=0x7f0c0004;
     }
     public static final class string {
-        public static final int About_para1=0x7f0a0016;
-        public static final int Go_button=0x7f0a0013;
-        public static final int Main_Activity=0x7f0a0014;
-        public static final int Window_About=0x7f0a0015;
+        public static final int About_para1=0x7f0a0017;
+        public static final int Go_button=0x7f0a0014;
+        public static final int Main_Activity=0x7f0a0015;
+        public static final int Window_About=0x7f0a0016;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;
@@ -1269,19 +1270,20 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
-        public static final int black_gold=0x7f0a001b;
-        public static final int button_go=0x7f0a0012;
+        public static final int black_gold=0x7f0a001c;
+        public static final int button_go=0x7f0a0013;
+        public static final int dial=0x7f0a0012;
         public static final int hello_world=0x7f0a000e;
         public static final int minutes_label=0x7f0a0011;
-        public static final int more_info=0x7f0a0017;
+        public static final int more_info=0x7f0a0018;
         public static final int question_time=0x7f0a0010;
-        public static final int red_green=0x7f0a001a;
-        public static final int settings_theme=0x7f0a0019;
-        public static final int settings_title=0x7f0a0018;
-        public static final int title_activity_about=0x7f0a001c;
-        public static final int title_activity_settings=0x7f0a001d;
-        public static final int title_activity_theme_black=0x7f0a001e;
-        public static final int title_activity_theme_green=0x7f0a001f;
+        public static final int red_green=0x7f0a001b;
+        public static final int settings_theme=0x7f0a001a;
+        public static final int settings_title=0x7f0a0019;
+        public static final int title_activity_about=0x7f0a001d;
+        public static final int title_activity_settings=0x7f0a001e;
+        public static final int title_activity_theme_black=0x7f0a001f;
+        public static final int title_activity_theme_green=0x7f0a0020;
     }
     public static final class style {
         /** 

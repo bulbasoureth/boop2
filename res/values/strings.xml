@@ -6,6 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="question_time">how long do you want to work:</string>
     <string name="minutes_label">minutes</string>
+     <string name="dial">spin to choose time</string>
     <string name="button_go">GO</string>
     <string name="Go_button">GO</string>
     <string name="Main_Activity">Activity</string>

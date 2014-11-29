@@ -17,68 +17,58 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
+        android:enabled="true"
+        android:focusable="true"
+        android:gravity="center"
         android:text="@string/question_time"
         android:textColor="#FFFFFF"
         android:textSize="32sp"
+        android:textStyle="bold" />
 
-
-        android:focusable="true"
-       
-        android:enabled="true"
-        android:textStyle="bold"
-        android:gravity="center" />
-
-    <TextView
-        android:id="@+id/display_time"
+    <ImageView
+        android:id="@+id/imageView_ring"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/dial"
+        android:scaleType="matrix"
+        android:src="@drawable/graphic_ring" />
+
+    <TextView
+        android:id="@+id/display_time"
         style="android:textViewStyle"
-        android:layout_below="@+id/question_time" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/minute_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonGO"
+        android:layout_alignLeft="@+id/buttonGO"
         android:layout_below="@+id/display_time"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="17dp"
         android:text="@string/minutes_label"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#FFFFFF" />
 
-
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Go_button"
         android:id="@+id/buttonGO"
-        android:layout_below="@+id/minute_label"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="57dp"
-        android:singleLine="true"
-        android:background="#ff02003b"
-        android:textColor="#ffffffff"
-        android:textStyle="bold"
-        android:textSize="30sp" />
-
-    <SeekBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/seekBar"
-        android:layout_alignTop="@+id/display_time"
-        android:layout_alignRight="@+id/question_time"
-        android:layout_alignLeft="@+id/question_time"
-        android:layout_alignStart="@+id/question_time"
-        android:layout_alignEnd="@+id/question_time"
-        android:layout_above="@+id/minute_label"
-        android:layout_alignParentLeft="true"
-         android:layout_alignParentStart="true"
-        android:max="300"
-
-        android:visibility="visible" />
+        android:layout_below="@+id/imageView_ring"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#ff02003b"
+        android:singleLine="true"
+        android:text="@string/Go_button"
+        android:textColor="#ffffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
