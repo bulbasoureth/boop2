@@ -9,22 +9,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.StudyBreak.MainActivity" >
 
-    <TextView
-        android:id="@+id/question_time"
-        style="android:textViewStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:enabled="true"
-        android:focusable="true"
-        android:gravity="center"
-        android:text="@string/question_time"
-        android:textColor="#FFFFFF"
-        android:textSize="32sp"
-        android:textStyle="bold" />
-
     <ImageView
         android:id="@+id/imageView_ring"
         android:layout_width="wrap_content"
@@ -69,6 +53,22 @@
         android:text="@string/Go_button"
         android:textColor="#ffffffff"
         android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/question_time"
+        style="android:textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:enabled="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/question_time"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
         android:textStyle="bold" />
 
 </RelativeLayout>
